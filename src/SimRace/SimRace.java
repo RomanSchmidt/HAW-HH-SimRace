@@ -45,7 +45,7 @@ public class SimRace {
      */
     private void _printResult() {
         StringBuffer buffer = new StringBuffer();
-        buffer.append("**** Endstand ****");
+        buffer.append("**** Endstand ****\n");
         for (int i = 0; i < this._cars.size(); ++i) {
             Car car = this._cars.get(i);
             buffer
